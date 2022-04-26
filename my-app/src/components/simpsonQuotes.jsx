@@ -23,7 +23,7 @@ const Quotes = () => {
           <div>
             <div> {simpsonQuotes.character}</div>
             <img src={simpsonQuotes.image} alt="" />
-            <li key={index}>{simpsonQuotes.quote}</li>
+            <div key={index}>{simpsonQuotes.quote}</div>
           </div>
         ))}
       </ul>
